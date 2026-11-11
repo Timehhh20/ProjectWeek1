@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.Navigatie {
+    background-color: blueviolet;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Navigatie a {
+    color: white;
+    text-decoration: none;
+}
+
+.Navigatie a:hover {
+    color:mediumorchid;
+}
+
+.zoekbalk input {
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    background-color: white;
+    border: none;
+}
+
+.over-ons-content {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.over-ons-image {
+    width: 100px;
+}
+
+.docenten {
+    display: flex;
+    gap: 20px;
+}
+
+.docent {
+    background-color: white;
+    padding: 15px;
+    flex: 1;
+}
+
+.docent img {
+    width: 100%;
+}
+
+.locaties {
+    margin-top: 30px;
+}
+
+.locatie {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.locatie img {
+    width: 100%;
+    max-width: 400px;
+}
