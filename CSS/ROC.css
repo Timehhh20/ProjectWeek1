@@ -1,7 +1,11 @@
 .container {
-    width: 1000px;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.page-container {
+    width: 1000px;
 }
 
 .Navigatie {
@@ -40,10 +44,67 @@
 
 .Verschillende-vakken {
     display: flex;
+    gap: 15px;
+    margin-top: 20px;
 }
 
-.Vak-Website {}
+.Vak-Website {
+    background-color: #6e6eb4;
+    width: 315px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
 
-.Vak-Programeren {}
+.Vak-Programeren {
+    background-color: #6e6eb4;
+    width: 315px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     gap: 12px;
+}
 
-.Vak-ICT {}
+.Vak-ICT {
+
+    background-color: #99d4eb;
+    width: 315px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.foto-website {
+    border-radius: 10px;
+}
+
+.foto-ICT {
+    border-radius: 10px;
+}
+
+.foto-programeren {
+    border-radius: 10px;
+}
+
+.Website-Title {
+    font-size: 20px;
+}
+
+.Basis-ICT-Title {
+    font-size: 20px;
+}
+
+.Programeren-Title {
+    font-size: 20px;
+}
