@@ -53,6 +53,12 @@ body {
     padding: 20px;
     margin: 20px;
 }
+.openingstijden {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
 .message-1,
 .message-2,
