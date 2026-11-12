@@ -5,9 +5,9 @@
     flex-direction: column;
 }
 
-body{
-     font-family: Arial, sans-serif;
-     background-color: #f2f2f2;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 
 }
 
@@ -16,10 +16,10 @@ body{
     margin-top: 30px;
 }
 
-.Button{
+.Button {
     color: white;
     text-decoration: none;
-    
+
 }
 
 .Navigatie {
@@ -29,6 +29,19 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+
+.Navigatie a {
+    color: white;
+    text-decoration: none;
+}
+
+.Navigatie a:hover {
+    color: mediumorchid;
+}
+
+.zoekbalk input {
+    padding: 8px;
 }
 
 .School-Logo {
@@ -41,7 +54,7 @@ body{
     display: flex;
     gap: 15px;
     color: black;
-    
+
 }
 
 .Vakken {
@@ -57,7 +70,7 @@ body{
     border-radius: 20px;
     font-size: 30px;
     display: flex;
-    
+
     text-align: center;
 }
 
@@ -151,7 +164,7 @@ body{
     border-radius: 10px;
     align-items: center;
     width: 315px;
-      gap: 20px;
+    gap: 20px;
 }
 
 .PHP-code {
@@ -163,7 +176,7 @@ body{
     border-radius: 10px;
     align-items: center;
     width: 315px;
-      gap: 20px;
+    gap: 20px;
 }
 
 .Java-code {

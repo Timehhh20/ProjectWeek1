@@ -76,3 +76,12 @@ button {
     width: 100%;
     max-width: 400px;
 }
+
+footer {
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
